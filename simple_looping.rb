@@ -51,6 +51,8 @@ def for_iterator(number_of_times)
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   phrase = "Welcome to Flatiron School's Web Development Course!"
   array = number_of_times.to_a
-  for number_of_times in array
+  for number_of_times in array do
+    puts phrase
+  end
 end
 
